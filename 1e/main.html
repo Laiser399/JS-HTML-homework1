@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Хранилище книг</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="menu-form">
+        <div class="div_main_buttons">
+            <div class="div_button"><button onclick="AddBook()">Добавить книгу</button></div>
+            <div class="div_button"><button onclick="FindBook()">Найти книгу</button></div>
+            <div class="div_button"><button onclick="DeleteBook()">Удалить книгу</button></div>
+            <div class="div_button"><button onclick="AskSortBooks()">Отсортировать</button></div>
+            <div class="div_button"><button onclick="DisplayAllBooks()">Вывести все книги</button></div>
+        </div>
+        <table class="table" rules="all">
+            <tr class="table_line">
+                <td class="table_col_index">№</td>
+                <td class="table_col_book">Название книги</td>
+                <td class="table_col_author">Автор</td>
+                <td class="table_col_publish">Издательство</td>
+                <td class="table_col_year">Год</td>
+            </tr>
+
+            <tr class="table_line">
+                <td id="t_index1" class="table_col_index"></td>
+                <td id="t_book1" class="table_col_book"></td>
+                <td id="t_author1" class="table_col_author"></td>
+                <td id="t_publish1" class="table_col_publish"></td>
+                <td id="t_year1" class="table_col_year"></td>
+            </tr>
+            <tr class="table_line">
+                <td id="t_index2" class="table_col_index"></td>
+                <td id="t_book2" class="table_col_book"></td>
+                <td id="t_author2" class="table_col_author"></td>
+                <td id="t_publish2" class="table_col_publish"></td>
+                <td id="t_year2" class="table_col_year"></td>
+            </tr>
+            <tr class="table_line">
+                <td id="t_index3" class="table_col_index"></td>
+                <td id="t_book3" class="table_col_book"></td>
+                <td id="t_author3" class="table_col_author"></td>
+                <td id="t_publish3" class="table_col_publish"></td>
+                <td id="t_year3" class="table_col_year"></td>
+            </tr>
+            <tr class="table_line">
+                <td id="t_index4" class="table_col_index"></td>
+                <td id="t_book4" class="table_col_book"></td>
+                <td id="t_author4" class="table_col_author"></td>
+                <td id="t_publish4" class="table_col_publish"></td>
+                <td id="t_year4" class="table_col_year"></td>
+            </tr>
+            <tr class="table_line">
+                <td id="t_index5" class="table_col_index"></td>
+                <td id="t_book5" class="table_col_book"></td>
+                <td id="t_author5" class="table_col_author"></td>
+                <td id="t_publish5" class="table_col_publish"></td>
+                <td id="t_year5" class="table_col_year"></td>
+            </tr>
+            <tr class="table_line">
+                <td id="t_index6" class="table_col_index"></td>
+                <td id="t_book6" class="table_col_book"></td>
+                <td id="t_author6" class="table_col_author"></td>
+                <td id="t_publish6" class="table_col_publish"></td>
+                <td id="t_year6" class="table_col_year"></td>
+            </tr>
+            <tr class="table_line">
+                <td id="t_index7" class="table_col_index"></td>
+                <td id="t_book7" class="table_col_book"></td>
+                <td id="t_author7" class="table_col_author"></td>
+                <td id="t_publish7" class="table_col_publish"></td>
+                <td id="t_year7" class="table_col_year"></td>
+            </tr>
+            <tr class="table_line">
+                <td id="t_index8" class="table_col_index"></td>
+                <td id="t_book8" class="table_col_book"></td>
+                <td id="t_author8" class="table_col_author"></td>
+                <td id="t_publish8" class="table_col_publish"></td>
+                <td id="t_year8" class="table_col_year"></td>
+            </tr>
+            <tr class="table_line">
+                <td id="t_index9" class="table_col_index"></td>
+                <td id="t_book9" class="table_col_book"></td>
+                <td id="t_author9" class="table_col_author"></td>
+                <td id="t_publish9" class="table_col_publish"></td>
+                <td id="t_year9" class="table_col_year"></td>
+            </tr>
+            <tr class="table_line">
+                <td id="t_index10" class="table_col_index"></td>
+                <td id="t_book10" class="table_col_book"></td>
+                <td id="t_author10" class="table_col_author"></td>
+                <td id="t_publish10" class="table_col_publish"></td>
+                <td id="t_year10" class="table_col_year"></td>
+            </tr>
+        </table>
+        <div class="div_change_page">
+            <button onclick="PrevPage()"><<</button>
+            <label id="pages">1 из 1</label>
+            <button onclick="NextPage()">>></button>
+        </div>
+
+    </div>
+    <script src="Vault_Books.js"></script>
+</body>
+</html>

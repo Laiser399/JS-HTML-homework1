@@ -1,0 +1,88 @@
+body {
+    background-color: #818382;
+}
+
+.menu-form {
+    align: center;
+    width: 800px;
+    height: 550px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    background-color: #e5e4df;
+    padding: 10px 16px;
+}
+
+.div_change_page {
+    position: relative;
+    width: 140px;
+    height: 28px;
+    /*background-color: #e50004;*/
+    padding: 6px;
+}
+
+.div_main_buttons {
+    display: flex;
+    align-items: center;
+    height: 45px;
+    padding: 10px;
+    font-size: larger;
+    /*background-color: aqua;*/
+}
+.div_button {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    height: 45px;
+    font-size: larger;
+    /*background-color: blanchedalmond;*/
+    padding: 10px;
+}
+
+.menu-form__button {
+    display: flex;
+    align-items: center;
+    height: 45px;
+    padding: 10px 16px;
+    font-size: larger;
+}
+
+.menu_button {
+    font-size: 24px;
+    width: 200px;
+}
+
+
+.table {
+    max-width: 800px;
+    padding: 10px 10px;
+    border: 2px solid black;
+    width: 100%;
+}
+.table_line {
+    height: 40px;
+    /*align-items: center;*/
+}
+.table_col_index {
+    nowrap;
+    width: 6%;
+    align-items: center;
+}
+.table_col_book {
+    width: 28%;
+    align-content: center;
+}
+.table_col_author {
+    width: 28%;
+    align-content: center;
+}
+.table_col_publish {
+    width: 28%;
+    align-content: center;
+}
+.table_col_year {
+    width: 10%;
+    align-content: center;
+}
